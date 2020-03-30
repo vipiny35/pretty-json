@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "PrettyJSON",
+    "version": "1.0.0",
+    "description": "Format JSON code in browser",
+    "author": "Vipin Yadav",
+    "homepage_url": "https://www.webtiara.com/",
+    "icons": {
+        "32": "icon.png",
+        "48": "icon48.png",
+        "64": "icon64.png",
+        "128": "icon128.png",
+        "256": "icon256.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "web_accessible_resources": [
+        "viewer.css",
+        "viewer.js"
+    ],
+    "default_locale": "en"
+}
