@@ -76,6 +76,11 @@ chrome.runtime.onMessage.addListener((_message: any, sender: { url: string }, se
     sendResponse(true);
     return;
   }
+  // Add support for any file that ends with .json
+  if (sender.url.endsWith(".json")) {
+    sendResponse(true);
+    return;
+  }
   // If we support this API, we don't need to invoke the content script.
   if ('filterResponseData' in chrome.webRequest) {
     sendResponse(false);
