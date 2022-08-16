@@ -19,4 +19,4 @@ We keep our privacy notice under regular review and we will place any updates on
 
 ## How to contact us
 
-Please contact us if you have any questions about our privacy policy by email to vipin.yadav &lt;at&gt; webtiara.com.
+Please contact us if you have any questions about our privacy policy by email to me&lt;at&gt;vipinyadav.com.
