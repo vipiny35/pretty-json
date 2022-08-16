@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "PrettyJSON",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Format JSON code in browser",
     "author": "Vipin Yadav",
     "homepage_url": "https://vipinyadav.com/",
