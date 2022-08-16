@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
     "name": "PrettyJSON",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Format JSON code in browser",
     "author": "Vipin Yadav",
-    "homepage_url": "https://www.webtiara.com/",
+    "homepage_url": "https://vipinyadav.com/",
     "icons": {
         "32": "icon.png",
         "48": "icon48.png",
